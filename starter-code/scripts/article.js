@@ -46,6 +46,7 @@ Article.loadAll = function(rawData) {
 // This function will retrieve the data from either a local or remote source,
 // and process it, then hand off control to the View.
 Article.fetchAll = function() {
+  console.log('workd fool')
   if (localStorage.rawData) {
     // When rawData is already in localStorage,
     // we can load it with the .loadAll function above,
